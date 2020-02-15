@@ -1,0 +1,3 @@
+insmod ./hello-1.ko
+rmmod hello-1.ko
+systemctl restart rsyslog
