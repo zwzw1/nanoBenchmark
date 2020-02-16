@@ -6,12 +6,12 @@ Benchmark codes in cycles in kernel mode.
 3. output: /var/log/messages
 4.  Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
     benchmark cost: 24 ~ 31 cycles
-    rdtscp cost: 52 ~ 62 cycles with benchmark cost. Hence, rdtsc may use: 21 ~ 38 cycles
+    rdtscp cost: 52 ~ 62 cycles with benchmark cost. Hence, rdtsc may use: 28 ~ 31 cycles
    
     Intel(R) Core(TM) i9-7920X CPU @ 2.90GHz
     benchmark cost: 21 ~ 29 cycles
-    rdtscp cost: 47 ~ 57 cycles with benchmark cost. Hence, rdtsc may use aboule: 18 ~ 36 cycles
+    rdtscp cost: 47 ~ 57 cycles with benchmark cost. Hence, rdtsc may use aboule: 26 ~ 28 cycles
     
     Intel(R) Xeon(R) CPU E7-4809 v2 @ 1.90GHz
     benchmark cost: 48 ~ 52 cycles
-    rdtscp cost: 84 ~ 88 cycles with benchmark cost. Hence, rdtsc may use aboule: 32 ~ 40 cycles
+    rdtscp cost: 84 ~ 88 cycles with benchmark cost. Hence, rdtsc may use aboule: 36  cycles
