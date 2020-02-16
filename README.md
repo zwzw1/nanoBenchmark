@@ -15,12 +15,22 @@ Benchmark codes in cycles in kernel mode.
     Intel(R) Xeon(R) CPU E7-4809 v2 @ 1.90GHz
     benchmark cost: 48 ~ 52 cycles
     rdtscp cost: 84 ~ 88 cycles with benchmark cost. Hence, rdtsc may use aboule: 36  cycles
+    
 5. another benchmark : just use cycles between two consecutive calls
+
    In kernel mode counts:
+   
        Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz    28 cycles
+       
        Intel(R) Core(TM) i9-7920X CPU @ 2.90GHz     28 cycles
+       
        Intel(R) Xeon(R) CPU E7-4809 v2 @ 1.90GHz    40~45 cycles
+       
    In user mode counts:
+   
        Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz    35 cycles
+       
        Intel(R) Core(TM) i9-7920X CPU @ 2.90GHz     40 cycles
+       
        Intel(R) Xeon(R) CPU E7-4809 v2 @ 1.90GHz    72 cycles   
+       
